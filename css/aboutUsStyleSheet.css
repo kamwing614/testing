@@ -20,21 +20,20 @@ body {
   float: left;
   margin-left: 1%;
   font-size: 40px;
+  position: fixed;
 }
 
 /* .logo{
   float: left;
 } */
 #menu {
-  
-  float: right;
+  left: 40% ;
+  position: absolute;
   font-size: 35px;
   bottom: 0%;
   color: white;
   overflow: hidden;
 }
-
-
 
 #currentPage {
   font-weight: bold;
@@ -46,7 +45,6 @@ a.button:link, a.button:visited {
   background-color: rgb(105, 252, 252);
   color: black;
 
-  text-align: center;
   text-decoration: none;
   display: inline-block;
 }
@@ -56,7 +54,6 @@ a.button:hover {
   background-color: rgb(100, 230, 230);
   color: black;
 
-  text-align: center;
   text-decoration: none;
   display: inline-block;
 }
@@ -66,7 +63,6 @@ a.button:active {
   color: black;
   font-weight: bold;
 }
-
 
 /* end of header part */
 /* Style the content */
