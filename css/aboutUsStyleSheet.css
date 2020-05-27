@@ -13,40 +13,39 @@ body {
   background-color: rgb(105, 252, 252);
   position: relative;
   height: 90px;
+  margin-bottom: 10px;
 }
 
-.ComNameOnHeader {
+#logo {
   float: left;
-  font-size: 40px;
   margin-left: 1%;
-  overflow: hidden;
+  font-size: 40px;
 }
 
 /* .logo{
   float: left;
 } */
-.menu {
-  position: absolute;
+#menu {
+  
+  float: right;
   font-size: 35px;
-  left: 40%;
   bottom: 0%;
   color: white;
   overflow: hidden;
 }
 
-.button {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-#currentPage{
+
+
+#currentPage {
   font-weight: bold;
 }
+
 /* Each state */
 a.button:link, a.button:visited {
   color: black;
   background-color: rgb(105, 252, 252);
   color: black;
-  padding: 20px 20px;
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -56,7 +55,7 @@ a.button:hover {
   color: black;
   background-color: rgb(100, 230, 230);
   color: black;
-  padding: 20px 20px;
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -67,6 +66,7 @@ a.button:active {
   color: black;
   font-weight: bold;
 }
+
 
 /* end of header part */
 /* Style the content */
