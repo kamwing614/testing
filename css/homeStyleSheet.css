@@ -32,6 +32,7 @@ a.button:hover, a:active { text-decoration: none; color:black }
   background-size: contain;
   position:relative;
   height:125px;
+  overflow: hidden;
 }
 .logo{
   float: left;
@@ -39,7 +40,7 @@ a.button:hover, a:active { text-decoration: none; color:black }
 .menu{
   position: absolute;
   font-size:30px;
-  left:50%;
+  left:auto;
   bottom: 10%;
   right: 7.5%;
   color:white;
